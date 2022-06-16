@@ -1,17 +1,15 @@
 
 <template>
-  <InnerOutterWrapped 
-    :is-wrapped="false"
-  />
+  <ReactivityRef />
 </template>
 
 <script>
-import InnerOutterWrapped from './components/InnerOutterWrapped.vue'
+import ReactivityRef from './components/ReactivityRef.vue'
 
 export default {
   name: 'App',
   components: {
-    InnerOutterWrapped
+    ReactivityRef
   },
 }
 </script>
